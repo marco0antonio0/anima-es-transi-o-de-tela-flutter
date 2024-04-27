@@ -19,6 +19,7 @@ Chamar as Funções de Navegação:
 Em qualquer lugar do seu aplicativo onde deseja realizar uma transição de tela com animação de deslize, chame uma das funções de navegação passando o contexto atual e a tela de destino como parâmetros.Exemplo:
 dart
 <img src="images_readme/animacao1.gif" width="25%" height="25%">
+
 > **Animação** deslize de tela da **esqueda para direita**
 
 ```dart
@@ -26,7 +27,9 @@ navigateToPageWithSlideAnimation(context, MyDestinationScreen());
 ```
 
 ou
+
 <img src="images_readme/animacao2.gif" width="25%" height="25%">
+
 > **Animação** deslize de tela da **diretita para esquerda**
 
 ```dart
